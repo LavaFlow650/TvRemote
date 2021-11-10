@@ -98,6 +98,7 @@ def pathfind(start, finish):
         start=[6,1]
     path.extend(path2d(start,finish))
     path.append('ok')
+    path.append('star')
     return path
 def pathfindSignIn(start,finish):
     path=[]
