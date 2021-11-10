@@ -141,5 +141,4 @@ print3d(ytSignInKey)
 #print(path2d([0,0],[1,3]))
 #ytSearch('sneaky worlds 2020')
 while True:
-    input('enter when ready')
-    ytSignIn('test','test')
+    ytSearch(input('enter when ready\n'))
