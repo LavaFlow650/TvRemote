@@ -4,6 +4,8 @@ import time
 
 r = r()
 
+def accx():
+    
 while True:
     accx = cp.acceleration.x
     print(accx)
