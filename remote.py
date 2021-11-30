@@ -71,6 +71,7 @@ class r:
 
     def send(self, command):
         pulsesOutputter.send(self.genArray(getattr(self, command.upper())))
+        print('Sent: ' + str(command.upper()))
     def sendArray(self, array):
         for i in array:
             pulsesOutputter.send(self.genArray(getattr(self, i.upper())))
